@@ -1,0 +1,5 @@
+google-genai
+numpy
+scipy
+pyaudio
+python-dotenv>=1.0.0

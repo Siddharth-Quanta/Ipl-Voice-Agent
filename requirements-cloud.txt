@@ -1,0 +1,19 @@
+# IPL Voice Assistant - Cloud Run Dependencies
+
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+websockets==14.1
+
+# Google Gemini
+google-genai==0.2.2
+
+# Audio processing (no PyAudio - cloud doesn't have audio devices)
+pydub==0.25.1
+numpy==2.2.1
+
+# HTTP client for health checks
+requests==2.32.3
+
+# Python utilities
+python-multipart==0.0.20  # For form data parsing

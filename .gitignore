@@ -1,0 +1,42 @@
+# Environment variables with secrets
+.env
+.env.local
+.env.production
+
+# README with personal config (contains API keys, phone numbers, etc.)
+README.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Logs (ephemeral in Cloud Run anyway)
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local test files
+audio_dumps/
+test_*.py
